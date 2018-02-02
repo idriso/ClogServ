@@ -46,7 +46,8 @@ public class EchoClientTCP
                         BufferedReader stdIn =
                                 new BufferedReader(
                                         new InputStreamReader(System.in))
-                )
+
+                ) // Syout print    "enter info
         {
             String userInput;
             // Loop until null input string
@@ -73,18 +74,5 @@ public class EchoClientTCP
         }
     }
 
-    public static convert( double value1, double value2, String currency){
 
-        if(currency.equals("NOK")){
-            value2 = value1 * 0.734878047;
-            System.out.println(value1 + "NOK = " + value2 + " USA. (Conversion rate: 1 NOK = 0.734878047 USD)");
-
-            System.out.println("Conversion rate: 1 NOK = 0.734878047 USD"
-                    + "\nConversion rate: USD = 1.36077 Nok");
-        }
-
-
-
-
-    }
 }
